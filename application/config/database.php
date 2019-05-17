@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => '',
-	'password' => '',
-	'database' => '',
+	'hostname' => 'mariadb001.cmeypdk92ow4.us-west-2.rds.amazonaws.com',
+	'username' => 'root',
+	'password' => 'mamat123',
+	'database' => 'kontak',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,

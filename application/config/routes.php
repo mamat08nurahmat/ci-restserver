@@ -60,3 +60,23 @@ $route['translate_uri_dashes'] = FALSE;
 */
 $route['api/example/users/(:num)'] = 'api/example/users/id/$1'; // Example 4
 $route['api/example/users/(:num)(\.)([a-zA-Z0-9_-]+)(.*)'] = 'api/example/users/id/$1/format/$3$4'; // Example 8
+
+
+$route['api/kontak/users/(:num)'] = 'api/kontak/users/id/$1'; // Example 4
+$route['api/kontak/users/(:num)(\.)([a-zA-Z0-9_-]+)(.*)'] = 'api/kontak/users/id/$1/format/$3$4'; // Example 8
+
+
+$route['api/kontak/index/(:num)'] = 'api/kontak/index/id/$1'; // Example 4
+$route['api/kontak/index/users/(:num)(\.)([a-zA-Z0-9_-]+)(.*)'] = 'api/kontak/index/users/id/$1/format/$3$4'; // Example 8
+
+
+$route['kontak/index/(:num)'] = 'kontak/index/id/$1'; // Example 4
+$route['kontak/index/(:num)(\.)([a-zA-Z0-9_-]+)(.*)'] = 'kontak/index/id/$1/format/$3$4'; // Example 8
+
+
+// $route['api/kontak/(:num)'] = 'api/kontak/id/$1'; // Example 4
+// $route['api/kontak/(:num)(\.)([a-zA-Z0-9_-]+)(.*)'] = 'api/kontak/id/$1/format/$3$4'; // Example 8
+
+
+// $route['kontak/(:num)'] = 'kontak/id/$1'; // Example 4
+// $route['kontak/(:num)(\.)([a-zA-Z0-9_-]+)(.*)'] = 'kontak/id/$1/format/$3$4'; // Example 8
